@@ -20,6 +20,6 @@ abstract class BibleDb : RoomDatabase() {
     abstract fun verseDao(): VerseDao
 
     companion object {
-        const val VERSION = 1
+        const val VERSION = 2
     }
 }

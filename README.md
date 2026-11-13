@@ -15,7 +15,7 @@ This is a simple Bible tool for the Light Phone made with the light-sdk.
 
 The Holy Bible, Berean Standard Bible, BSB is produced in cooperation with Bible Hub, Discovery Bible, OpenBible.com, and the Berean Bible Translation Committee. This text of God's Word has been dedicated to the public domain.
 
-The BSB was [dedicated to the public domain](https://berean.bible/terms.htm) on April 30, 2023. This tool displays the text verbatim.
+The BSB was [dedicated to the public domain](https://berean.bible/terms.htm) on April 30, 2023. The text here comes from the BSB's USJ download (files dated March 8, 2026). Headings, cross references, footnotes, and Psalm titles are left out, and a few export formatting quirks are cleaned up (see [`scripts/usj_to_chapters.py`](scripts/usj_to_chapters.py)); the wording is otherwise verbatim.
 
 ## Development
 
@@ -29,9 +29,9 @@ Run the unit tests with:
 
 ### Updating the Bible text
 
-The text comes from [`chapters.json`](chapters.json), which [`scripts/build_bible_db.py`](scripts/build_bible_db.py) converts into the prebuilt database at `tool/src/main/assets/bible.db`. To ship a change to the text:
+The text flows from the BSB's USJ download, to [`chapters.json`](chapters.json), to the prebuilt database at `tool/src/main/assets/bible.db`. To ship a change to the text:
 
-1. Update `chapters.json`.
+1. Download the BSB in USJ format from [berean.bible](https://berean.bible/downloads.htm), unzip it outside the repo, and run `python3 scripts/usj_to_chapters.py path/to/bsb_usj`. This rewrites `chapters.json`. Review its diff before going on.
 2. Bump `VERSION` in [`BibleDb.kt`](tool/src/main/kotlin/com/trentcowden/bible/data/BibleDb.kt).
 3. Run `python3 scripts/build_bible_db.py`. It reads `VERSION` from `BibleDb.kt` and stamps it into the database.
 
