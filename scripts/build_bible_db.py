@@ -34,7 +34,7 @@ OUT_PATH = (
 
 BIBLE_DB_KT = (
     REPO_ROOT / "tool" / "src" / "main" / "kotlin"
-    / "com" / "trentcowden" / "bible" / "data" / "BibleDb.kt"
+    / "com" / "trentcowden" / "tov" / "data" / "BibleDb.kt"
 )
 
 VERSE_ID_RE = re.compile(r"^([A-Z0-9]+)\.(\d+)\.(\d+)$")

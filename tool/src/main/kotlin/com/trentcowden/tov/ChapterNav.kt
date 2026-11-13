@@ -1,4 +1,4 @@
-package com.trentcowden.bible
+package com.trentcowden.tov
 
 /**
  * Moving between chapters across book boundaries. Pure logic so it can be unit tested;

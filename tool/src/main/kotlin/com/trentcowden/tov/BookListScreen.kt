@@ -1,4 +1,4 @@
-package com.trentcowden.bible
+package com.trentcowden.tov
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -9,7 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import com.trentcowden.bible.data.BibleDbHolder
+import com.trentcowden.tov.data.BibleDbHolder
 import com.thelightphone.sdk.LightScreen
 import com.thelightphone.sdk.SealedLightActivity
 import com.thelightphone.sdk.ui.LightBarButton

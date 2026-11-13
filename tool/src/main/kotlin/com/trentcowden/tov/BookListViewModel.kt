@@ -1,8 +1,8 @@
-package com.trentcowden.bible
+package com.trentcowden.tov
 
 import androidx.lifecycle.viewModelScope
-import com.trentcowden.bible.data.BibleDb
-import com.trentcowden.bible.data.BookInfo
+import com.trentcowden.tov.data.BibleDb
+import com.trentcowden.tov.data.BookInfo
 import com.thelightphone.sdk.LightViewModel
 import com.thelightphone.sdk.SimpleLightScreen
 import kotlinx.coroutines.flow.MutableStateFlow

@@ -1,4 +1,4 @@
-package com.trentcowden.bible
+package com.trentcowden.tov
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column

@@ -1,6 +1,6 @@
-# Bible Tool for Light Phone
+# Tov for Light Phone
 
-This is a simple Bible tool for the Light Phone made with the light-sdk.
+Tov is a minimalist Bible reader for the Light Phone, based on Tov, my minimalist Bible app for iOS. It's built with the [Light SDK](https://github.com/lightphone/light-sdk).
 
 ## Features
 
@@ -32,7 +32,7 @@ Run the unit tests with:
 The text flows from the BSB's USJ download, to [`chapters.json`](chapters.json), to the prebuilt database at `tool/src/main/assets/bible.db`. To ship a change to the text:
 
 1. Download the BSB in USJ format from [berean.bible](https://berean.bible/downloads.htm), unzip it outside the repo, and run `python3 scripts/usj_to_chapters.py path/to/bsb_usj`. This rewrites `chapters.json`. Review its diff before going on.
-2. Bump `VERSION` in [`BibleDb.kt`](tool/src/main/kotlin/com/trentcowden/bible/data/BibleDb.kt).
+2. Bump `VERSION` in [`BibleDb.kt`](tool/src/main/kotlin/com/trentcowden/tov/data/BibleDb.kt).
 3. Run `python3 scripts/build_bible_db.py`. It reads `VERSION` from `BibleDb.kt` and stamps it into the database.
 
 On next launch, existing installs see the new version and replace their copy of the database. Reading position is stored separately, so it isn't affected. A unit test fails if the database and `VERSION` ever disagree.

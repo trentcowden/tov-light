@@ -1,4 +1,4 @@
-package com.trentcowden.bible.data
+package com.trentcowden.tov.data
 
 import com.thelightphone.sdk.SealedLightContext
 import com.thelightphone.sdk.buildDatabase

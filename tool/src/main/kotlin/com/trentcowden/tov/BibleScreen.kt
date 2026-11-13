@@ -1,4 +1,4 @@
-package com.trentcowden.bible
+package com.trentcowden.tov
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -33,8 +33,8 @@ import com.thelightphone.sdk.ui.LightThemeController
 import com.thelightphone.sdk.ui.LightThemeTokens
 import com.thelightphone.sdk.ui.designVerticalPxToSp
 import com.thelightphone.sdk.ui.gridUnitsAsDp
-import com.trentcowden.bible.data.BibleDbHolder
-import com.trentcowden.bible.data.ReadingPositionStore
+import com.trentcowden.tov.data.BibleDbHolder
+import com.trentcowden.tov.data.ReadingPositionStore
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.flow.first

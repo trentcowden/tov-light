@@ -1,4 +1,4 @@
-package com.trentcowden.bible
+package com.trentcowden.tov
 
 import com.thelightphone.sdk.EntryPoint
 import com.thelightphone.sdk.LightEntryPoint

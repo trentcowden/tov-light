@@ -1,4 +1,4 @@
-package com.trentcowden.bible.data
+package com.trentcowden.tov.data
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

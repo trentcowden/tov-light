@@ -1,10 +1,10 @@
-package com.trentcowden.bible.data
+package com.trentcowden.tov.data
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.intPreferencesKey
-import com.trentcowden.bible.BibleRef
+import com.trentcowden.tov.BibleRef
 import kotlinx.coroutines.flow.first
 
 /** Where the reader left off: a chapter, and how far down it they'd scrolled. */

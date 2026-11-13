@@ -1,10 +1,10 @@
-package com.trentcowden.bible
+package com.trentcowden.tov
 
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.withStyle
-import com.trentcowden.bible.data.Verse
+import com.trentcowden.tov.data.Verse
 
 /**
  * Turns a chapter's verses into display paragraphs, with each verse number styled by

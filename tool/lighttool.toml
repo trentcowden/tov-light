@@ -1,6 +1,6 @@
 [tool]
-id = "com.trentcowden.bible"
-label = "Bible"
+id = "com.trentcowden.tov"
+label = "Tov"
 versionCode = 1
 versionName = "1.0.0"
 permissions = []

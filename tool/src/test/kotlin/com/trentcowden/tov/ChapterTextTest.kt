@@ -1,8 +1,8 @@
-package com.trentcowden.bible
+package com.trentcowden.tov
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.SpanStyle
-import com.trentcowden.bible.data.Verse
+import com.trentcowden.tov.data.Verse
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

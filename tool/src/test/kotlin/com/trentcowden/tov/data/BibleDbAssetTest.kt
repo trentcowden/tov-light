@@ -1,4 +1,4 @@
-package com.trentcowden.bible.data
+package com.trentcowden.tov.data
 
 import java.io.File
 import java.io.RandomAccessFile

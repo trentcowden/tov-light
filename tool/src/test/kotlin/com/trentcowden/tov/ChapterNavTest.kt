@@ -1,4 +1,4 @@
-package com.trentcowden.bible
+package com.trentcowden.tov
 
 import kotlinx.coroutines.runBlocking
 import kotlin.test.Test
