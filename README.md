@@ -11,6 +11,13 @@ Tov is a minimalist Bible reader for the Light Phone, based on Tov, my minimalis
 - Tap the chapter title to open the table of contents and jump to any book and chapter
 - Picks up right where you left off, down to your place in the chapter
 
+## Screenshots
+
+<img width="1080" height="1240" alt="Screenshot_20260718_174412" src="https://github.com/user-attachments/assets/e58c6598-7b43-4132-8124-5db1b517ff16" />
+<img width="1080" height="1240" alt="Screenshot_20260718_174425" src="https://github.com/user-attachments/assets/87df02f7-99a3-4e88-acbc-ecaf6737d99d" />
+<img width="1080" height="1240" alt="Screenshot_20260718_174434" src="https://github.com/user-attachments/assets/2567da70-8aca-48cc-8762-869e2918841a" />
+<img width="1080" height="1240" alt="Screenshot_20260718_174447" src="https://github.com/user-attachments/assets/0f5f58cb-9691-40c3-8cd9-9faf54832dc0" />
+
 ## Bible text
 
 The Holy Bible, Berean Standard Bible, BSB is produced in cooperation with Bible Hub, Discovery Bible, OpenBible.com, and the Berean Bible Translation Committee. This text of God's Word has been dedicated to the public domain.
