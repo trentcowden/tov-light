@@ -59,7 +59,7 @@ class ChapterListScreen(
                     modifier = Modifier
                         .weight(1f)
                         .fillMaxWidth()
-                        .padding(horizontal = 24.dp)
+                        .padding(start = 24.dp)
                         .padding(bottom = 24.dp),
                 ) {
                     // Lay the chapters out 5 to a row.

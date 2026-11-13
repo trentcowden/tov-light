@@ -8,5 +8,4 @@ This is a simple Bible tool for the Light Phone made with the light-sdk.
 - Bible stored in a speedy sqlite database
 - No indents and nice paragraph spacing for easy reading
 - Navigate chapters via left and right arrow in the top bar
-- Navigate to a specific book and chapter in the Bible with the table of contents
-- Hide verse numbers in the settings
+- Tap the chapter title to open the table of contents and jump to any book and chapter

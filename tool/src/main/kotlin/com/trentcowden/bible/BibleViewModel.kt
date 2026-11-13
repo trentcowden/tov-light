@@ -3,33 +3,17 @@ package com.trentcowden.bible
 import androidx.lifecycle.viewModelScope
 import com.trentcowden.bible.data.BibleDb
 import com.trentcowden.bible.data.ReadingPositionStore
-import com.trentcowden.bible.data.SettingsStore
 import com.trentcowden.bible.data.Verse
 import com.thelightphone.sdk.LightViewModel
 import com.thelightphone.sdk.SimpleLightScreen
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 
 class BibleViewModel(
     private val db: BibleDb,
     private val positionStore: ReadingPositionStore,
-    settingsStore: SettingsStore,
 ) : LightViewModel<Unit>() {
-
-    /**
-     * Whether to hide verse numbers, observed from the shared settings store. Toggling
-     * it on the settings screen writes to the same DataStore, so this flow emits and the
-     * reader recomposes when we navigate back — no manual refresh needed.
-     */
-    val hideVerseNumbers: StateFlow<Boolean> =
-        settingsStore.hideVerseNumbers.stateIn(
-            scope = viewModelScope,
-            started = SharingStarted.Eagerly,
-            initialValue = false,
-        )
 
     /** Everything the screen needs to draw one chapter, in a single object. */
     data class ChapterState(

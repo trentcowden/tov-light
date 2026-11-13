@@ -56,7 +56,7 @@ class BookListScreen(sealedActivity: SealedLightActivity) :
                     modifier = Modifier
                         .weight(1f)
                         .fillMaxWidth()
-                        .padding(horizontal = 24.dp)
+                        .padding(start = 24.dp)
                         .padding(bottom = 24.dp),
                 ) {
                     books.forEach { book ->
