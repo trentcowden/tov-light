@@ -185,4 +185,4 @@ private fun TextStyle.scaledForScreen(): TextStyle = copy(
     letterSpacing = letterSpacing.scaledForScreen(),
 )
 
-private const val PARAGRAPH_GAP_UNITS = 1f
+private const val PARAGRAPH_GAP_UNITS = 0.75f
