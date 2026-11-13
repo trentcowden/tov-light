@@ -19,7 +19,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.TextUnit
-import androidx.compose.ui.unit.dp
 import com.thelightphone.sdk.InitialScreen
 import com.thelightphone.sdk.LightScreen
 import com.thelightphone.sdk.SealedLightActivity
@@ -30,7 +29,6 @@ import com.thelightphone.sdk.ui.LightScrollView
 import com.thelightphone.sdk.ui.LightTheme
 import com.thelightphone.sdk.ui.LightThemeController
 import com.thelightphone.sdk.ui.LightThemeTokens
-import com.thelightphone.sdk.ui.designVerticalPxToDp
 import com.thelightphone.sdk.ui.designVerticalPxToSp
 import com.thelightphone.sdk.ui.gridUnitsAsDp
 import com.trentcowden.bible.data.BibleDbHolder
@@ -80,7 +78,7 @@ class BibleScreen(sealedActivity: SealedLightActivity) :
                         .fillMaxWidth()
                         // Pad only the start: LightScrollView already reserves a gutter
                         // on the end for its scroll bar, which should sit at the edge.
-                        .padding(start = 24.dp, top = 1f.gridUnitsAsDp())
+                        .padding(start = 1f.gridUnitsAsDp(), top = 1f.gridUnitsAsDp())
                 ) {
                     val paragraphs = chapterToParagraphs(state.verses, verseNumberStyle)
                     paragraphs.forEachIndexed { index, paragraph ->
@@ -93,12 +91,7 @@ class BibleScreen(sealedActivity: SealedLightActivity) :
                             color = colors.content,
                         )
                         if (index < paragraphs.lastIndex) {
-                            Spacer(
-                                modifier = Modifier.height(
-                                    (PARAGRAPH_FONT_PX * PARAGRAPH_SPACING_MULTIPLIER)
-                                        .designVerticalPxToDp()
-                                )
-                            )
+                            Spacer(modifier = Modifier.height(PARAGRAPH_GAP_UNITS.gridUnitsAsDp()))
                         }
                     }
                 }
@@ -180,5 +173,4 @@ private fun TextStyle.scaledForScreen(): TextStyle = copy(
     letterSpacing = letterSpacing.scaledForScreen(),
 )
 
-private const val PARAGRAPH_FONT_PX = 24.5f
-private const val PARAGRAPH_SPACING_MULTIPLIER = 0.7f
+private const val PARAGRAPH_GAP_UNITS = 1f

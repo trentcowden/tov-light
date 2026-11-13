@@ -9,7 +9,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 import com.trentcowden.bible.data.BibleDbHolder
 import com.thelightphone.sdk.LightScreen
 import com.thelightphone.sdk.SealedLightActivity
@@ -19,6 +18,7 @@ import com.thelightphone.sdk.ui.LightScrollView
 import com.thelightphone.sdk.ui.LightText
 import com.thelightphone.sdk.ui.LightTextVariant
 import com.thelightphone.sdk.ui.LightTheme
+import com.thelightphone.sdk.ui.gridUnitsAsDp
 import com.thelightphone.sdk.ui.LightThemeController
 import com.thelightphone.sdk.ui.LightThemeTokens
 import com.thelightphone.sdk.ui.LightTopBar
@@ -56,8 +56,8 @@ class BookListScreen(sealedActivity: SealedLightActivity) :
                     modifier = Modifier
                         .weight(1f)
                         .fillMaxWidth()
-                        .padding(start = 24.dp)
-                        .padding(bottom = 24.dp),
+                        .padding(start = 1f.gridUnitsAsDp())
+                        .padding(bottom = 1f.gridUnitsAsDp()),
                 ) {
                     books.forEach { book ->
                         LightText(
@@ -76,7 +76,7 @@ class BookListScreen(sealedActivity: SealedLightActivity) :
                                         goBack(BibleRef(book.book, chapter))
                                     }
                                 }
-                                .padding(vertical = 12.dp),
+                                .padding(vertical = 0.75f.gridUnitsAsDp()),
                         )
                     }
                 }

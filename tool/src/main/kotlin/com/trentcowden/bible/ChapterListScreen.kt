@@ -12,7 +12,6 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.unit.dp
 import com.thelightphone.sdk.SealedLightActivity
 import com.thelightphone.sdk.SimpleLightScreen
 import com.thelightphone.sdk.ui.LightBarButton
@@ -21,6 +20,7 @@ import com.thelightphone.sdk.ui.LightScrollView
 import com.thelightphone.sdk.ui.LightText
 import com.thelightphone.sdk.ui.LightTextVariant
 import com.thelightphone.sdk.ui.LightTheme
+import com.thelightphone.sdk.ui.gridUnitsAsDp
 import com.thelightphone.sdk.ui.LightThemeController
 import com.thelightphone.sdk.ui.LightThemeTokens
 import com.thelightphone.sdk.ui.LightTopBar
@@ -59,8 +59,8 @@ class ChapterListScreen(
                     modifier = Modifier
                         .weight(1f)
                         .fillMaxWidth()
-                        .padding(start = 24.dp)
-                        .padding(bottom = 24.dp),
+                        .padding(start = 1f.gridUnitsAsDp())
+                        .padding(bottom = 1f.gridUnitsAsDp()),
                 ) {
                     // Lay the chapters out 5 to a row.
                     (1..chapterCount).chunked(COLUMNS).forEach { row ->
@@ -73,7 +73,7 @@ class ChapterListScreen(
                                     modifier = Modifier
                                         .weight(1f)
                                         .lightClickable { goBack(chapter) }
-                                        .padding(vertical = 16.dp),
+                                        .padding(vertical = 1f.gridUnitsAsDp()),
                                 )
                             }
                             // Keep the last (short) row's columns aligned with the rest.
