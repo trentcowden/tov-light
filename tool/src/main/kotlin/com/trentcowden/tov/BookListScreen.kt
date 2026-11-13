@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -37,6 +38,8 @@ class BookListScreen(sealedActivity: SealedLightActivity) :
     override fun Content() {
         val books by viewModel.books.collectAsState()
         val themeColors by LightThemeController.colors.collectAsState()
+        // Starts where the list was when a book was opened (the top, the first time).
+        val scrollState = rememberScrollState(initial = viewModel.scrollPx)
 
         LightTheme(colors = themeColors) {
             Column(
@@ -53,6 +56,7 @@ class BookListScreen(sealedActivity: SealedLightActivity) :
                 )
 
                 LightScrollView(
+                    scrollState = scrollState,
                     modifier = Modifier
                         .weight(1f)
                         .fillMaxWidth()
@@ -66,6 +70,7 @@ class BookListScreen(sealedActivity: SealedLightActivity) :
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .lightClickable {
+                                    viewModel.scrollPx = scrollState.value
                                     // Push the chapter list; when it returns a chapter,
                                     // go back again with the full ref so BibleScreen loads it.
                                     navigateTo(
