@@ -28,6 +28,10 @@ interface VerseDao {
     @Query("SELECT * FROM verses WHERE book = :book AND chapter = :chapter ORDER BY verse")
     suspend fun chapter(book: Int, chapter: Int): List<Verse>
 
+    /** The chapter's title (a Psalm title), or null if it has none. */
+    @Query("SELECT text FROM chapter_titles WHERE book = :book AND chapter = :chapter")
+    suspend fun chapterTitle(book: Int, chapter: Int): String?
+
     /** Number of chapters in a book — handy for next/previous navigation bounds. */
     @Query("SELECT MAX(chapter) FROM verses WHERE book = :book")
     suspend fun chapterCount(book: Int): Int

@@ -15,7 +15,7 @@ This is a simple Bible tool for the Light Phone made with the light-sdk.
 
 The Holy Bible, Berean Standard Bible, BSB is produced in cooperation with Bible Hub, Discovery Bible, OpenBible.com, and the Berean Bible Translation Committee. This text of God's Word has been dedicated to the public domain.
 
-The BSB was [dedicated to the public domain](https://berean.bible/terms.htm) on April 30, 2023. The text here comes from the BSB's USJ download (files dated March 8, 2026). Headings, cross references, footnotes, and Psalm titles are left out, and a few export formatting quirks are cleaned up (see [`scripts/usj_to_chapters.py`](scripts/usj_to_chapters.py)); the wording is otherwise verbatim.
+The BSB was [dedicated to the public domain](https://berean.bible/terms.htm) on April 30, 2023. The text here comes from the BSB's USJ download (files dated March 8, 2026). Psalm titles are shown above verse 1 in a quieter color. Section headings, cross references, and footnotes are left out, and a few export formatting quirks are cleaned up (see [`scripts/usj_to_chapters.py`](scripts/usj_to_chapters.py)); the wording is otherwise verbatim.
 
 ## Development
 

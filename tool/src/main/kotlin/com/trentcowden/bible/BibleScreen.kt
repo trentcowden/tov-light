@@ -26,6 +26,8 @@ import com.thelightphone.sdk.ui.LightBarButton
 import com.thelightphone.sdk.ui.LightBottomBar
 import com.thelightphone.sdk.ui.LightIcons
 import com.thelightphone.sdk.ui.LightScrollView
+import com.thelightphone.sdk.ui.LightText
+import com.thelightphone.sdk.ui.LightTextVariant
 import com.thelightphone.sdk.ui.LightTheme
 import com.thelightphone.sdk.ui.LightThemeController
 import com.thelightphone.sdk.ui.LightThemeTokens
@@ -80,6 +82,16 @@ class BibleScreen(sealedActivity: SealedLightActivity) :
                         // on the end for its scroll bar, which should sit at the edge.
                         .padding(start = 1f.gridUnitsAsDp(), top = 1f.gridUnitsAsDp())
                 ) {
+                    // A Psalm title, in the quieter secondary color like the verse numbers.
+                    state.title?.let { title ->
+                        LightText(
+                            text = title,
+                            variant = LightTextVariant.Paragraph,
+                            lighten = true,
+                        )
+                        Spacer(modifier = Modifier.height(PARAGRAPH_GAP_UNITS.gridUnitsAsDp()))
+                    }
+
                     val paragraphs = chapterToParagraphs(state.verses, verseNumberStyle)
                     paragraphs.forEachIndexed { index, paragraph ->
                         // Plain Text rather than LightText, which only takes a String:

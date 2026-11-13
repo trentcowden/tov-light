@@ -14,7 +14,8 @@ Room compatibility notes (why this works without any identity-hash dance):
   * We do NOT create Room's `room_master_table`. When it's absent, Room creates
     it and stamps its own identity hash on first open — no schema validation
     error.
-  * Column names/types below must stay in sync with the @Entity in the app.
+  * Column names/types below must stay in sync with the @Entity classes in the app
+    (Verse, ChapterTitle). Room checks the schema when it opens the database.
 """
 
 import json
@@ -56,12 +57,16 @@ def main() -> None:
     # chapters.json is already in canonical order, so this is stable.
     book_numbers: dict[str, int] = {}
     rows = []
+    title_rows = []
     for chapter in chapters:
         book_id = chapter["chapterId"].split(".")[0]
         if book_id not in book_numbers:
             book_numbers[book_id] = len(book_numbers) + 1
         book_no = book_numbers[book_id]
         book_name = chapter["bookName"]
+        if "title" in chapter:  # e.g. a Psalm's "A Psalm of David."
+            chap_no = int(chapter["chapterId"].split(".")[1])
+            title_rows.append((book_no, chap_no, chapter["title"]))
 
         for v in chapter["verses"]:
             m = VERSE_ID_RE.match(v["verseId"])
@@ -101,12 +106,22 @@ def main() -> None:
                 text      TEXT    NOT NULL
             );
             CREATE INDEX index_verses_book_chapter ON verses(book, chapter);
+            CREATE TABLE chapter_titles (
+                book    INTEGER NOT NULL,
+                chapter INTEGER NOT NULL,
+                text    TEXT    NOT NULL,
+                PRIMARY KEY (book, chapter)
+            );
             """
         )
         db.executemany(
             "INSERT INTO verses (id, book, book_id, book_name, chapter, verse, text) "
             "VALUES (?, ?, ?, ?, ?, ?, ?)",
             rows,
+        )
+        db.executemany(
+            "INSERT INTO chapter_titles (book, chapter, text) VALUES (?, ?, ?)",
+            title_rows,
         )
         # Must match BibleDb.VERSION; see module docstring.
         db.execute(f"PRAGMA user_version = {db_version}")
@@ -115,7 +130,7 @@ def main() -> None:
         db.close()
 
     size_mb = OUT_PATH.stat().st_size / 1_000_000
-    print(f"Wrote {len(rows)} verses across {len(book_numbers)} books")
+    print(f"Wrote {len(rows)} verses across {len(book_numbers)} books, {len(title_rows)} chapter titles")
     print(f"-> {OUT_PATH} ({size_mb:.1f} MB, user_version {db_version})")
 
 

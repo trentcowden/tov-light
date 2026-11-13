@@ -19,6 +19,7 @@ class BibleViewModel(
     data class ChapterState(
         val ref: BibleRef? = null,           // null until the first chapter loads
         val reference: String = "",          // e.g. "John 3"
+        val title: String? = null,           // a Psalm title, shown above verse 1
         val verses: List<Verse> = emptyList(),
         val hasPrevious: Boolean = false,
         val hasNext: Boolean = false,
@@ -83,6 +84,7 @@ class BibleViewModel(
         val lastInBook = chapterCount(requested.book)
         val target = requested.copy(chapter = requested.chapter.coerceIn(1, lastInBook))
         val verses = db.verseDao().chapter(target.book, target.chapter)
+        val title = db.verseDao().chapterTitle(target.book, target.chapter)
 
         ref = target
         // A saved offset only applies to the chapter it was saved for.
@@ -90,6 +92,7 @@ class BibleViewModel(
         _state.value = ChapterState(
             ref = target,
             reference = verses.firstOrNull()?.let { "${it.bookName} ${it.chapter}" } ?: "",
+            title = title,
             verses = verses,
             // Chevrons hide only at the two ends of the whole Bible.
             hasPrevious = !ChapterNav.isFirst(target),

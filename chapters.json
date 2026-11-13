@@ -59585,9 +59585,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.1",
-    "reference": "Psalms 1",
+    "reference": "Psalm 1",
     "verses": [
       {
         "verseId": "PSA.1.1",
@@ -59617,9 +59617,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.2",
-    "reference": "Psalms 2",
+    "reference": "Psalm 2",
     "verses": [
       {
         "verseId": "PSA.2.1",
@@ -59673,9 +59673,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.3",
-    "reference": "Psalms 3",
+    "reference": "Psalm 3",
+    "title": "A Psalm of David, when he fled from his son Absalom.",
     "verses": [
       {
         "verseId": "PSA.3.1",
@@ -59713,9 +59714,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.4",
-    "reference": "Psalms 4",
+    "reference": "Psalm 4",
+    "title": "For the choirmaster. With stringed instruments. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.4.1",
@@ -59753,9 +59755,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.5",
-    "reference": "Psalms 5",
+    "reference": "Psalm 5",
+    "title": "For the choirmaster, to be accompanied by flutes. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.5.1",
@@ -59809,9 +59812,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.6",
-    "reference": "Psalms 6",
+    "reference": "Psalm 6",
+    "title": "For the choirmaster. With stringed instruments, according to Sheminith. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.6.1",
@@ -59857,9 +59861,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.7",
-    "reference": "Psalms 7",
+    "reference": "Psalm 7",
+    "title": "A Shiggaion of David, which he sang to the LORD concerning the words of Cush, a Benjamite.",
     "verses": [
       {
         "verseId": "PSA.7.1",
@@ -59933,9 +59938,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.8",
-    "reference": "Psalms 8",
+    "reference": "Psalm 8",
+    "title": "For the choirmaster. According to Gittith. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.8.1",
@@ -59977,9 +59983,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.9",
-    "reference": "Psalms 9",
+    "reference": "Psalm 9",
+    "title": "For the choirmaster. To the tune of “The Death of the Son.” A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.9.1",
@@ -60065,9 +60072,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.10",
-    "reference": "Psalms 10",
+    "reference": "Psalm 10",
     "verses": [
       {
         "verseId": "PSA.10.1",
@@ -60145,9 +60152,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.11",
-    "reference": "Psalms 11",
+    "reference": "Psalm 11",
+    "title": "For the choirmaster. Of David.",
     "verses": [
       {
         "verseId": "PSA.11.1",
@@ -60181,9 +60189,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.12",
-    "reference": "Psalms 12",
+    "reference": "Psalm 12",
+    "title": "For the choirmaster. According to Sheminith. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.12.1",
@@ -60221,9 +60230,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.13",
-    "reference": "Psalms 13",
+    "reference": "Psalm 13",
+    "title": "For the choirmaster. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.13.1",
@@ -60253,9 +60263,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.14",
-    "reference": "Psalms 14",
+    "reference": "Psalm 14",
+    "title": "For the choirmaster. Of David.",
     "verses": [
       {
         "verseId": "PSA.14.1",
@@ -60289,9 +60300,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.15",
-    "reference": "Psalms 15",
+    "reference": "Psalm 15",
+    "title": "A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.15.1",
@@ -60317,9 +60329,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.16",
-    "reference": "Psalms 16",
+    "reference": "Psalm 16",
+    "title": "A Miktam of David.",
     "verses": [
       {
         "verseId": "PSA.16.1",
@@ -60369,9 +60382,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.17",
-    "reference": "Psalms 17",
+    "reference": "Psalm 17",
+    "title": "A prayer of David.",
     "verses": [
       {
         "verseId": "PSA.17.1",
@@ -60437,9 +60451,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.18",
-    "reference": "Psalms 18",
+    "reference": "Psalm 18",
+    "title": "For the choirmaster. Of David the servant of the LORD, who sang this song to the LORD on the day the LORD had delivered him from the hand of all his enemies and from the hand of Saul. He said:",
     "verses": [
       {
         "verseId": "PSA.18.1",
@@ -60645,9 +60660,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.19",
-    "reference": "Psalms 19",
+    "reference": "Psalm 19",
+    "title": "For the choirmaster. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.19.1",
@@ -60709,9 +60725,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.20",
-    "reference": "Psalms 20",
+    "reference": "Psalm 20",
+    "title": "For the choirmaster. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.20.1",
@@ -60753,9 +60770,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.21",
-    "reference": "Psalms 21",
+    "reference": "Psalm 21",
+    "title": "For the choirmaster. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.21.1",
@@ -60813,9 +60831,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.22",
-    "reference": "Psalms 22",
+    "reference": "Psalm 22",
+    "title": "For the choirmaster. To the tune of “The Doe of the Dawn.” A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.22.1",
@@ -60945,9 +60964,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.23",
-    "reference": "Psalms 23",
+    "reference": "Psalm 23",
+    "title": "A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.23.1",
@@ -60977,9 +60997,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.24",
-    "reference": "Psalms 24",
+    "reference": "Psalm 24",
+    "title": "A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.24.1",
@@ -61025,9 +61046,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.25",
-    "reference": "Psalms 25",
+    "reference": "Psalm 25",
+    "title": "Of David.",
     "verses": [
       {
         "verseId": "PSA.25.1",
@@ -61121,9 +61143,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.26",
-    "reference": "Psalms 26",
+    "reference": "Psalm 26",
+    "title": "Of David.",
     "verses": [
       {
         "verseId": "PSA.26.1",
@@ -61177,9 +61200,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.27",
-    "reference": "Psalms 27",
+    "reference": "Psalm 27",
+    "title": "Of David.",
     "verses": [
       {
         "verseId": "PSA.27.1",
@@ -61241,9 +61265,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.28",
-    "reference": "Psalms 28",
+    "reference": "Psalm 28",
+    "title": "Of David.",
     "verses": [
       {
         "verseId": "PSA.28.1",
@@ -61285,9 +61310,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.29",
-    "reference": "Psalms 29",
+    "reference": "Psalm 29",
+    "title": "A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.29.1",
@@ -61337,9 +61363,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.30",
-    "reference": "Psalms 30",
+    "reference": "Psalm 30",
+    "title": "A Psalm. A song for the dedication of the temple. Of David.",
     "verses": [
       {
         "verseId": "PSA.30.1",
@@ -61393,9 +61420,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.31",
-    "reference": "Psalms 31",
+    "reference": "Psalm 31",
+    "title": "For the choirmaster. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.31.1",
@@ -61497,9 +61525,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.32",
-    "reference": "Psalms 32",
+    "reference": "Psalm 32",
+    "title": "Of David. A Maskil.",
     "verses": [
       {
         "verseId": "PSA.32.1",
@@ -61549,9 +61578,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.33",
-    "reference": "Psalms 33",
+    "reference": "Psalm 33",
     "verses": [
       {
         "verseId": "PSA.33.1",
@@ -61645,9 +61674,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.34",
-    "reference": "Psalms 34",
+    "reference": "Psalm 34",
+    "title": "Of David, when he pretended to be insane before Abimelech, so that the king drove him away.",
     "verses": [
       {
         "verseId": "PSA.34.1",
@@ -61741,9 +61771,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.35",
-    "reference": "Psalms 35",
+    "reference": "Psalm 35",
+    "title": "Of David.",
     "verses": [
       {
         "verseId": "PSA.35.1",
@@ -61861,9 +61892,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.36",
-    "reference": "Psalms 36",
+    "reference": "Psalm 36",
+    "title": "For the choirmaster. A Psalm of David, the servant of the LORD.",
     "verses": [
       {
         "verseId": "PSA.36.1",
@@ -61917,9 +61949,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.37",
-    "reference": "Psalms 37",
+    "reference": "Psalm 37",
+    "title": "Of David.",
     "verses": [
       {
         "verseId": "PSA.37.1",
@@ -62085,9 +62118,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.38",
-    "reference": "Psalms 38",
+    "reference": "Psalm 38",
+    "title": "A Psalm of David, for remembrance.",
     "verses": [
       {
         "verseId": "PSA.38.1",
@@ -62181,9 +62215,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.39",
-    "reference": "Psalms 39",
+    "reference": "Psalm 39",
+    "title": "For the choirmaster. For Jeduthun. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.39.1",
@@ -62241,9 +62276,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.40",
-    "reference": "Psalms 40",
+    "reference": "Psalm 40",
+    "title": "For the choirmaster. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.40.1",
@@ -62317,9 +62353,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.41",
-    "reference": "Psalms 41",
+    "reference": "Psalm 41",
+    "title": "For the choirmaster. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.41.1",
@@ -62377,9 +62414,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.42",
-    "reference": "Psalms 42",
+    "reference": "Psalm 42",
+    "title": "For the choirmaster. A Maskil of the sons of Korah.",
     "verses": [
       {
         "verseId": "PSA.42.1",
@@ -62429,9 +62467,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.43",
-    "reference": "Psalms 43",
+    "reference": "Psalm 43",
     "verses": [
       {
         "verseId": "PSA.43.1",
@@ -62457,9 +62495,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.44",
-    "reference": "Psalms 44",
+    "reference": "Psalm 44",
+    "title": "For the choirmaster. A Maskil of the sons of Korah.",
     "verses": [
       {
         "verseId": "PSA.44.1",
@@ -62569,9 +62608,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.45",
-    "reference": "Psalms 45",
+    "reference": "Psalm 45",
+    "title": "For the choirmaster. To the tune of “The Lilies.” A Maskil of the sons of Korah. A love song.",
     "verses": [
       {
         "verseId": "PSA.45.1",
@@ -62645,9 +62685,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.46",
-    "reference": "Psalms 46",
+    "reference": "Psalm 46",
+    "title": "For the choirmaster. Of the sons of Korah. According to Alamoth. A song.",
     "verses": [
       {
         "verseId": "PSA.46.1",
@@ -62697,9 +62738,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.47",
-    "reference": "Psalms 47",
+    "reference": "Psalm 47",
+    "title": "For the choirmaster. A Psalm of the sons of Korah.",
     "verses": [
       {
         "verseId": "PSA.47.1",
@@ -62741,9 +62783,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.48",
-    "reference": "Psalms 48",
+    "reference": "Psalm 48",
+    "title": "A song. A Psalm of the sons of Korah.",
     "verses": [
       {
         "verseId": "PSA.48.1",
@@ -62805,9 +62848,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.49",
-    "reference": "Psalms 49",
+    "reference": "Psalm 49",
+    "title": "For the choirmaster. A Psalm of the sons of Korah.",
     "verses": [
       {
         "verseId": "PSA.49.1",
@@ -62893,9 +62937,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.50",
-    "reference": "Psalms 50",
+    "reference": "Psalm 50",
+    "title": "A Psalm of Asaph.",
     "verses": [
       {
         "verseId": "PSA.50.1",
@@ -62993,9 +63038,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.51",
-    "reference": "Psalms 51",
+    "reference": "Psalm 51",
+    "title": "For the choirmaster. A Psalm of David. When Nathan the prophet came to him after his adultery with Bathsheba.",
     "verses": [
       {
         "verseId": "PSA.51.1",
@@ -63077,9 +63123,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.52",
-    "reference": "Psalms 52",
+    "reference": "Psalm 52",
+    "title": "For the choirmaster. A Maskil of David. After Doeg the Edomite went to Saul and told him, “David has gone to the house of Ahimelech.”",
     "verses": [
       {
         "verseId": "PSA.52.1",
@@ -63121,9 +63168,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.53",
-    "reference": "Psalms 53",
+    "reference": "Psalm 53",
+    "title": "For the choirmaster. According to Mahalath. A Maskil of David.",
     "verses": [
       {
         "verseId": "PSA.53.1",
@@ -63153,9 +63201,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.54",
-    "reference": "Psalms 54",
+    "reference": "Psalm 54",
+    "title": "For the choirmaster. With stringed instruments. A Maskil of David. When the Ziphites went to Saul and said, “Is David not hiding among us?”",
     "verses": [
       {
         "verseId": "PSA.54.1",
@@ -63189,9 +63238,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.55",
-    "reference": "Psalms 55",
+    "reference": "Psalm 55",
+    "title": "For the choirmaster. With stringed instruments. A Maskil of David.",
     "verses": [
       {
         "verseId": "PSA.55.1",
@@ -63289,9 +63339,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.56",
-    "reference": "Psalms 56",
+    "reference": "Psalm 56",
+    "title": "For the choirmaster. To the tune of “A Dove on Distant Oaks.” A Miktam of David, when the Philistines seized him in Gath.",
     "verses": [
       {
         "verseId": "PSA.56.1",
@@ -63349,9 +63400,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.57",
-    "reference": "Psalms 57",
+    "reference": "Psalm 57",
+    "title": "For the choirmaster. To the tune of “Do Not Destroy.” A Miktam of David, when he fled from Saul into the cave.",
     "verses": [
       {
         "verseId": "PSA.57.1",
@@ -63401,9 +63453,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.58",
-    "reference": "Psalms 58",
+    "reference": "Psalm 58",
+    "title": "For the choirmaster. To the tune of “Do Not Destroy.” A Miktam of David.",
     "verses": [
       {
         "verseId": "PSA.58.1",
@@ -63453,9 +63506,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.59",
-    "reference": "Psalms 59",
+    "reference": "Psalm 59",
+    "title": "For the choirmaster. To the tune of “Do Not Destroy.” A Miktam of David, when Saul sent men to watch David’s house in order to kill him.",
     "verses": [
       {
         "verseId": "PSA.59.1",
@@ -63529,9 +63583,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.60",
-    "reference": "Psalms 60",
+    "reference": "Psalm 60",
+    "title": "For the choirmaster. To the tune of “The Lily of the Covenant.” A Miktam of David for instruction. When he fought Aram-naharaim and Aram-zobah, and Joab returned and struck down 12,000 Edomites in the Valley of Salt.",
     "verses": [
       {
         "verseId": "PSA.60.1",
@@ -63585,9 +63640,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.61",
-    "reference": "Psalms 61",
+    "reference": "Psalm 61",
+    "title": "For the choirmaster. With stringed instruments. Of David.",
     "verses": [
       {
         "verseId": "PSA.61.1",
@@ -63625,9 +63681,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.62",
-    "reference": "Psalms 62",
+    "reference": "Psalm 62",
+    "title": "For the choirmaster. According to Jeduthun. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.62.1",
@@ -63681,9 +63738,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.63",
-    "reference": "Psalms 63",
+    "reference": "Psalm 63",
+    "title": "A Psalm of David, when he was in the Wilderness of Judah.",
     "verses": [
       {
         "verseId": "PSA.63.1",
@@ -63733,9 +63791,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.64",
-    "reference": "Psalms 64",
+    "reference": "Psalm 64",
+    "title": "For the choirmaster. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.64.1",
@@ -63781,9 +63840,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.65",
-    "reference": "Psalms 65",
+    "reference": "Psalm 65",
+    "title": "For the choirmaster. A Psalm of David. A song.",
     "verses": [
       {
         "verseId": "PSA.65.1",
@@ -63841,9 +63901,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.66",
-    "reference": "Psalms 66",
+    "reference": "Psalm 66",
+    "title": "For the choirmaster. A song. A Psalm.",
     "verses": [
       {
         "verseId": "PSA.66.1",
@@ -63929,9 +63990,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.67",
-    "reference": "Psalms 67",
+    "reference": "Psalm 67",
+    "title": "For the choirmaster. With stringed instruments. A Psalm. A song.",
     "verses": [
       {
         "verseId": "PSA.67.1",
@@ -63965,9 +64027,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.68",
-    "reference": "Psalms 68",
+    "reference": "Psalm 68",
+    "title": "For the choirmaster. A Psalm of David. A song.",
     "verses": [
       {
         "verseId": "PSA.68.1",
@@ -64113,9 +64176,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.69",
-    "reference": "Psalms 69",
+    "reference": "Psalm 69",
+    "title": "For the choirmaster. To the tune of “Lilies.” Of David.",
     "verses": [
       {
         "verseId": "PSA.69.1",
@@ -64265,9 +64329,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.70",
-    "reference": "Psalms 70",
+    "reference": "Psalm 70",
+    "title": "For the choirmaster. Of David. To bring remembrance.",
     "verses": [
       {
         "verseId": "PSA.70.1",
@@ -64293,9 +64358,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.71",
-    "reference": "Psalms 71",
+    "reference": "Psalm 71",
     "verses": [
       {
         "verseId": "PSA.71.1",
@@ -64397,9 +64462,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.72",
-    "reference": "Psalms 72",
+    "reference": "Psalm 72",
+    "title": "Of Solomon.",
     "verses": [
       {
         "verseId": "PSA.72.1",
@@ -64485,9 +64551,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.73",
-    "reference": "Psalms 73",
+    "reference": "Psalm 73",
+    "title": "A Psalm of Asaph.",
     "verses": [
       {
         "verseId": "PSA.73.1",
@@ -64605,9 +64672,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.74",
-    "reference": "Psalms 74",
+    "reference": "Psalm 74",
+    "title": "A Maskil of Asaph.",
     "verses": [
       {
         "verseId": "PSA.74.1",
@@ -64705,9 +64773,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.75",
-    "reference": "Psalms 75",
+    "reference": "Psalm 75",
+    "title": "For the choirmaster: To the tune of “Do Not Destroy.” A Psalm of Asaph. A song.",
     "verses": [
       {
         "verseId": "PSA.75.1",
@@ -64753,9 +64822,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.76",
-    "reference": "Psalms 76",
+    "reference": "Psalm 76",
+    "title": "For the choirmaster. With stringed instruments. A Psalm of Asaph. A song.",
     "verses": [
       {
         "verseId": "PSA.76.1",
@@ -64809,9 +64879,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.77",
-    "reference": "Psalms 77",
+    "reference": "Psalm 77",
+    "title": "For the choirmaster. According to Jeduthun. A Psalm of Asaph.",
     "verses": [
       {
         "verseId": "PSA.77.1",
@@ -64897,9 +64968,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.78",
-    "reference": "Psalms 78",
+    "reference": "Psalm 78",
+    "title": "A Maskil of Asaph.",
     "verses": [
       {
         "verseId": "PSA.78.1",
@@ -65193,9 +65265,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.79",
-    "reference": "Psalms 79",
+    "reference": "Psalm 79",
+    "title": "A Psalm of Asaph.",
     "verses": [
       {
         "verseId": "PSA.79.1",
@@ -65253,9 +65326,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.80",
-    "reference": "Psalms 80",
+    "reference": "Psalm 80",
+    "title": "For the choirmaster. To the tune of “The Lilies of the Covenant.” A Psalm of Asaph.",
     "verses": [
       {
         "verseId": "PSA.80.1",
@@ -65337,9 +65411,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.81",
-    "reference": "Psalms 81",
+    "reference": "Psalm 81",
+    "title": "For the choirmaster. According to Gittith. Of Asaph.",
     "verses": [
       {
         "verseId": "PSA.81.1",
@@ -65409,9 +65484,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.82",
-    "reference": "Psalms 82",
+    "reference": "Psalm 82",
+    "title": "A Psalm of Asaph.",
     "verses": [
       {
         "verseId": "PSA.82.1",
@@ -65449,9 +65525,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.83",
-    "reference": "Psalms 83",
+    "reference": "Psalm 83",
+    "title": "A song. A Psalm of Asaph.",
     "verses": [
       {
         "verseId": "PSA.83.1",
@@ -65529,9 +65606,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.84",
-    "reference": "Psalms 84",
+    "reference": "Psalm 84",
+    "title": "For the choirmaster. According to Gittith. A Psalm of the sons of Korah.",
     "verses": [
       {
         "verseId": "PSA.84.1",
@@ -65585,9 +65663,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.85",
-    "reference": "Psalms 85",
+    "reference": "Psalm 85",
+    "title": "For the choirmaster. A Psalm of the sons of Korah.",
     "verses": [
       {
         "verseId": "PSA.85.1",
@@ -65645,9 +65724,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.86",
-    "reference": "Psalms 86",
+    "reference": "Psalm 86",
+    "title": "A prayer of David.",
     "verses": [
       {
         "verseId": "PSA.86.1",
@@ -65721,9 +65801,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.87",
-    "reference": "Psalms 87",
+    "reference": "Psalm 87",
+    "title": "A Psalm of the sons of Korah. A song.",
     "verses": [
       {
         "verseId": "PSA.87.1",
@@ -65757,9 +65838,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.88",
-    "reference": "Psalms 88",
+    "reference": "Psalm 88",
+    "title": "A song. A Psalm of the sons of Korah. For the choirmaster. According to Mahalath Leannoth. A Maskil of Heman the Ezrahite.",
     "verses": [
       {
         "verseId": "PSA.88.1",
@@ -65837,9 +65919,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.89",
-    "reference": "Psalms 89",
+    "reference": "Psalm 89",
+    "title": "A Maskil of Ethan the Ezrahite.",
     "verses": [
       {
         "verseId": "PSA.89.1",
@@ -66053,9 +66136,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.90",
-    "reference": "Psalms 90",
+    "reference": "Psalm 90",
+    "title": "A prayer of Moses the man of God.",
     "verses": [
       {
         "verseId": "PSA.90.1",
@@ -66129,9 +66213,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.91",
-    "reference": "Psalms 91",
+    "reference": "Psalm 91",
     "verses": [
       {
         "verseId": "PSA.91.1",
@@ -66201,9 +66285,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.92",
-    "reference": "Psalms 92",
+    "reference": "Psalm 92",
+    "title": "A Psalm. A song for the Sabbath day.",
     "verses": [
       {
         "verseId": "PSA.92.1",
@@ -66269,9 +66354,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.93",
-    "reference": "Psalms 93",
+    "reference": "Psalm 93",
     "verses": [
       {
         "verseId": "PSA.93.1",
@@ -66297,9 +66382,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.94",
-    "reference": "Psalms 94",
+    "reference": "Psalm 94",
     "verses": [
       {
         "verseId": "PSA.94.1",
@@ -66397,9 +66482,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.95",
-    "reference": "Psalms 95",
+    "reference": "Psalm 95",
     "verses": [
       {
         "verseId": "PSA.95.1",
@@ -66449,9 +66534,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.96",
-    "reference": "Psalms 96",
+    "reference": "Psalm 96",
     "verses": [
       {
         "verseId": "PSA.96.1",
@@ -66509,9 +66594,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.97",
-    "reference": "Psalms 97",
+    "reference": "Psalm 97",
     "verses": [
       {
         "verseId": "PSA.97.1",
@@ -66565,9 +66650,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.98",
-    "reference": "Psalms 98",
+    "reference": "Psalm 98",
+    "title": "A Psalm.",
     "verses": [
       {
         "verseId": "PSA.98.1",
@@ -66609,9 +66695,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.99",
-    "reference": "Psalms 99",
+    "reference": "Psalm 99",
     "verses": [
       {
         "verseId": "PSA.99.1",
@@ -66653,9 +66739,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.100",
-    "reference": "Psalms 100",
+    "reference": "Psalm 100",
+    "title": "A Psalm of thanksgiving.",
     "verses": [
       {
         "verseId": "PSA.100.1",
@@ -66681,9 +66768,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.101",
-    "reference": "Psalms 101",
+    "reference": "Psalm 101",
+    "title": "A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.101.1",
@@ -66721,9 +66809,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.102",
-    "reference": "Psalms 102",
+    "reference": "Psalm 102",
+    "title": "A prayer of one who is afflicted, when he grows faint and pours out his lament before the LORD.",
     "verses": [
       {
         "verseId": "PSA.102.1",
@@ -66841,9 +66930,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.103",
-    "reference": "Psalms 103",
+    "reference": "Psalm 103",
+    "title": "Of David.",
     "verses": [
       {
         "verseId": "PSA.103.1",
@@ -66937,9 +67027,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.104",
-    "reference": "Psalms 104",
+    "reference": "Psalm 104",
     "verses": [
       {
         "verseId": "PSA.104.1",
@@ -67085,9 +67175,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.105",
-    "reference": "Psalms 105",
+    "reference": "Psalm 105",
     "verses": [
       {
         "verseId": "PSA.105.1",
@@ -67273,9 +67363,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.106",
-    "reference": "Psalms 106",
+    "reference": "Psalm 106",
     "verses": [
       {
         "verseId": "PSA.106.1",
@@ -67473,9 +67563,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.107",
-    "reference": "Psalms 107",
+    "reference": "Psalm 107",
     "verses": [
       {
         "verseId": "PSA.107.1",
@@ -67653,9 +67743,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.108",
-    "reference": "Psalms 108",
+    "reference": "Psalm 108",
+    "title": "A song. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.108.1",
@@ -67713,9 +67804,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.109",
-    "reference": "Psalms 109",
+    "reference": "Psalm 109",
+    "title": "For the choirmaster. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.109.1",
@@ -67845,9 +67937,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.110",
-    "reference": "Psalms 110",
+    "reference": "Psalm 110",
+    "title": "A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.110.1",
@@ -67881,9 +67974,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.111",
-    "reference": "Psalms 111",
+    "reference": "Psalm 111",
     "verses": [
       {
         "verseId": "PSA.111.1",
@@ -67929,9 +68022,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.112",
-    "reference": "Psalms 112",
+    "reference": "Psalm 112",
     "verses": [
       {
         "verseId": "PSA.112.1",
@@ -67977,9 +68070,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.113",
-    "reference": "Psalms 113",
+    "reference": "Psalm 113",
     "verses": [
       {
         "verseId": "PSA.113.1",
@@ -68021,9 +68114,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.114",
-    "reference": "Psalms 114",
+    "reference": "Psalm 114",
     "verses": [
       {
         "verseId": "PSA.114.1",
@@ -68061,9 +68154,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.115",
-    "reference": "Psalms 115",
+    "reference": "Psalm 115",
     "verses": [
       {
         "verseId": "PSA.115.1",
@@ -68141,9 +68234,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.116",
-    "reference": "Psalms 116",
+    "reference": "Psalm 116",
     "verses": [
       {
         "verseId": "PSA.116.1",
@@ -68225,9 +68318,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.117",
-    "reference": "Psalms 117",
+    "reference": "Psalm 117",
     "verses": [
       {
         "verseId": "PSA.117.1",
@@ -68241,9 +68334,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.118",
-    "reference": "Psalms 118",
+    "reference": "Psalm 118",
     "verses": [
       {
         "verseId": "PSA.118.1",
@@ -68365,9 +68458,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.119",
-    "reference": "Psalms 119",
+    "reference": "Psalm 119",
     "verses": [
       {
         "verseId": "PSA.119.1",
@@ -69077,9 +69170,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.120",
-    "reference": "Psalms 120",
+    "reference": "Psalm 120",
+    "title": "A song of ascents.",
     "verses": [
       {
         "verseId": "PSA.120.1",
@@ -69113,9 +69207,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.121",
-    "reference": "Psalms 121",
+    "reference": "Psalm 121",
+    "title": "A song of ascents.",
     "verses": [
       {
         "verseId": "PSA.121.1",
@@ -69153,9 +69248,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.122",
-    "reference": "Psalms 122",
+    "reference": "Psalm 122",
+    "title": "A song of ascents. Of David.",
     "verses": [
       {
         "verseId": "PSA.122.1",
@@ -69197,9 +69293,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.123",
-    "reference": "Psalms 123",
+    "reference": "Psalm 123",
+    "title": "A song of ascents.",
     "verses": [
       {
         "verseId": "PSA.123.1",
@@ -69221,9 +69318,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.124",
-    "reference": "Psalms 124",
+    "reference": "Psalm 124",
+    "title": "A song of ascents. Of David.",
     "verses": [
       {
         "verseId": "PSA.124.1",
@@ -69261,9 +69359,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.125",
-    "reference": "Psalms 125",
+    "reference": "Psalm 125",
+    "title": "A song of ascents.",
     "verses": [
       {
         "verseId": "PSA.125.1",
@@ -69289,9 +69388,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.126",
-    "reference": "Psalms 126",
+    "reference": "Psalm 126",
+    "title": "A song of ascents.",
     "verses": [
       {
         "verseId": "PSA.126.1",
@@ -69321,9 +69421,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.127",
-    "reference": "Psalms 127",
+    "reference": "Psalm 127",
+    "title": "A song of ascents. Of Solomon.",
     "verses": [
       {
         "verseId": "PSA.127.1",
@@ -69349,9 +69450,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.128",
-    "reference": "Psalms 128",
+    "reference": "Psalm 128",
+    "title": "A song of ascents.",
     "verses": [
       {
         "verseId": "PSA.128.1",
@@ -69381,9 +69483,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.129",
-    "reference": "Psalms 129",
+    "reference": "Psalm 129",
+    "title": "A song of ascents.",
     "verses": [
       {
         "verseId": "PSA.129.1",
@@ -69421,9 +69524,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.130",
-    "reference": "Psalms 130",
+    "reference": "Psalm 130",
+    "title": "A song of ascents.",
     "verses": [
       {
         "verseId": "PSA.130.1",
@@ -69461,9 +69565,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.131",
-    "reference": "Psalms 131",
+    "reference": "Psalm 131",
+    "title": "A song of ascents. Of David.",
     "verses": [
       {
         "verseId": "PSA.131.1",
@@ -69481,9 +69586,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.132",
-    "reference": "Psalms 132",
+    "reference": "Psalm 132",
+    "title": "A song of ascents.",
     "verses": [
       {
         "verseId": "PSA.132.1",
@@ -69561,9 +69667,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.133",
-    "reference": "Psalms 133",
+    "reference": "Psalm 133",
+    "title": "A song of ascents. Of David.",
     "verses": [
       {
         "verseId": "PSA.133.1",
@@ -69581,9 +69688,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.134",
-    "reference": "Psalms 134",
+    "reference": "Psalm 134",
+    "title": "A song of ascents.",
     "verses": [
       {
         "verseId": "PSA.134.1",
@@ -69601,9 +69709,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.135",
-    "reference": "Psalms 135",
+    "reference": "Psalm 135",
     "verses": [
       {
         "verseId": "PSA.135.1",
@@ -69693,9 +69801,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.136",
-    "reference": "Psalms 136",
+    "reference": "Psalm 136",
     "verses": [
       {
         "verseId": "PSA.136.1",
@@ -69805,9 +69913,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.137",
-    "reference": "Psalms 137",
+    "reference": "Psalm 137",
     "verses": [
       {
         "verseId": "PSA.137.1",
@@ -69849,9 +69957,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.138",
-    "reference": "Psalms 138",
+    "reference": "Psalm 138",
+    "title": "Of David.",
     "verses": [
       {
         "verseId": "PSA.138.1",
@@ -69889,9 +69998,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.139",
-    "reference": "Psalms 139",
+    "reference": "Psalm 139",
+    "title": "For the choirmaster. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.139.1",
@@ -69993,9 +70103,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.140",
-    "reference": "Psalms 140",
+    "reference": "Psalm 140",
+    "title": "For the choirmaster. A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.140.1",
@@ -70053,9 +70164,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.141",
-    "reference": "Psalms 141",
+    "reference": "Psalm 141",
+    "title": "A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.141.1",
@@ -70101,9 +70213,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.142",
-    "reference": "Psalms 142",
+    "reference": "Psalm 142",
+    "title": "A Maskil of David, when he was in the cave. A prayer.",
     "verses": [
       {
         "verseId": "PSA.142.1",
@@ -70137,9 +70250,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.143",
-    "reference": "Psalms 143",
+    "reference": "Psalm 143",
+    "title": "A Psalm of David.",
     "verses": [
       {
         "verseId": "PSA.143.1",
@@ -70193,9 +70307,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.144",
-    "reference": "Psalms 144",
+    "reference": "Psalm 144",
+    "title": "Of David.",
     "verses": [
       {
         "verseId": "PSA.144.1",
@@ -70261,9 +70376,10 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.145",
-    "reference": "Psalms 145",
+    "reference": "Psalm 145",
+    "title": "A Psalm of praise. Of David.",
     "verses": [
       {
         "verseId": "PSA.145.1",
@@ -70353,9 +70469,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.146",
-    "reference": "Psalms 146",
+    "reference": "Psalm 146",
     "verses": [
       {
         "verseId": "PSA.146.1",
@@ -70401,9 +70517,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.147",
-    "reference": "Psalms 147",
+    "reference": "Psalm 147",
     "verses": [
       {
         "verseId": "PSA.147.1",
@@ -70489,9 +70605,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.148",
-    "reference": "Psalms 148",
+    "reference": "Psalm 148",
     "verses": [
       {
         "verseId": "PSA.148.1",
@@ -70553,9 +70669,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.149",
-    "reference": "Psalms 149",
+    "reference": "Psalm 149",
     "verses": [
       {
         "verseId": "PSA.149.1",
@@ -70597,9 +70713,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Psalms",
+    "bookName": "Psalm",
     "chapterId": "PSA.150",
-    "reference": "Psalms 150",
+    "reference": "Psalm 150",
     "verses": [
       {
         "verseId": "PSA.150.1",
@@ -75521,9 +75637,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Song",
+    "bookName": "Song of Solomon",
     "chapterId": "SNG.1",
-    "reference": "Song 1",
+    "reference": "Song of Solomon 1",
     "verses": [
       {
         "verseId": "SNG.1.1",
@@ -75597,9 +75713,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Song",
+    "bookName": "Song of Solomon",
     "chapterId": "SNG.2",
-    "reference": "Song 2",
+    "reference": "Song of Solomon 2",
     "verses": [
       {
         "verseId": "SNG.2.1",
@@ -75673,9 +75789,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Song",
+    "bookName": "Song of Solomon",
     "chapterId": "SNG.3",
-    "reference": "Song 3",
+    "reference": "Song of Solomon 3",
     "verses": [
       {
         "verseId": "SNG.3.1",
@@ -75725,9 +75841,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Song",
+    "bookName": "Song of Solomon",
     "chapterId": "SNG.4",
-    "reference": "Song 4",
+    "reference": "Song of Solomon 4",
     "verses": [
       {
         "verseId": "SNG.4.1",
@@ -75797,9 +75913,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Song",
+    "bookName": "Song of Solomon",
     "chapterId": "SNG.5",
-    "reference": "Song 5",
+    "reference": "Song of Solomon 5",
     "verses": [
       {
         "verseId": "SNG.5.1",
@@ -75869,9 +75985,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Song",
+    "bookName": "Song of Solomon",
     "chapterId": "SNG.6",
-    "reference": "Song 6",
+    "reference": "Song of Solomon 6",
     "verses": [
       {
         "verseId": "SNG.6.1",
@@ -75929,9 +76045,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Song",
+    "bookName": "Song of Solomon",
     "chapterId": "SNG.7",
-    "reference": "Song 7",
+    "reference": "Song of Solomon 7",
     "verses": [
       {
         "verseId": "SNG.7.1",
@@ -75989,9 +76105,9 @@
   },
   {
     "translationId": "BSB",
-    "bookName": "Song",
+    "bookName": "Song of Solomon",
     "chapterId": "SNG.8",
-    "reference": "Song 8",
+    "reference": "Song of Solomon 8",
     "verses": [
       {
         "verseId": "SNG.8.1",
@@ -98395,7 +98511,7 @@
       },
       {
         "verseId": "HAB.3.19",
-        "text": "GOD the Lord is my strength;\n\nHe makes my feet like those of a deer;\n\nHe makes me walk upon the heights!\n\n"
+        "text": "GOD the Lord is my strength;\n\nHe makes my feet like those of a deer;\n\nHe makes me walk upon the heights!\n\nFor the choirmaster. With stringed instruments.\n\n"
       }
     ]
   },
@@ -99567,7 +99683,7 @@
     "verses": [
       {
         "verseId": "ZEC.12.1",
-        "text": "Thus declares the LORD, who stretches out the heavens and lays the foundation of the earth, who forms the spirit of man within him:\n\n"
+        "text": "This is the burden of the word of the LORD concerning Israel.\n\nThus declares the LORD, who stretches out the heavens and lays the foundation of the earth, who forms the spirit of man within him:\n\n"
       },
       {
         "verseId": "ZEC.12.2",

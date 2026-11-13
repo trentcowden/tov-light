@@ -15,11 +15,11 @@ import androidx.room.RoomDatabase
  *
  * exportSchema is off because there are no migrations to track.
  */
-@Database(entities = [Verse::class], version = BibleDb.VERSION, exportSchema = false)
+@Database(entities = [Verse::class, ChapterTitle::class], version = BibleDb.VERSION, exportSchema = false)
 abstract class BibleDb : RoomDatabase() {
     abstract fun verseDao(): VerseDao
 
     companion object {
-        const val VERSION = 2
+        const val VERSION = 3
     }
 }
