@@ -78,9 +78,9 @@ class SettingsScreen(sealedActivity: SealedLightActivity) :
 
                         LightIcon(
                             icon = if (hideVerseNumbers) {
-                                LightIcons.TOGGLE_OFF
+                                LightIcons.TOGGLE_STATE_OFF
                             } else {
-                                LightIcons.TOGGLE_ON
+                                LightIcons.TOGGLE_STATE_ON
                             },
                         )
                     }

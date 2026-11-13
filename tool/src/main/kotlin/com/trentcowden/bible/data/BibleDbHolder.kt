@@ -15,7 +15,7 @@ object BibleDbHolder {
     fun get(context: SealedLightContext): BibleDb =
         instance ?: synchronized(this) {
             instance ?: context
-                .buildDatabase(BibleDb::class.java, "bible.db", fromAsset = "bible.db")
+                .buildDatabase(BibleDb::class.java, "bible.db") { createFromAsset("bible.db") }
                 .also { instance = it }
         }
 }
