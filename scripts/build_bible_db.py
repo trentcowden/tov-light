@@ -8,11 +8,12 @@ Usage:
     python3 scripts/build_bible_db.py in.json out.db
 
 Room compatibility notes (why this works without any identity-hash dance):
-  * We set `PRAGMA user_version = 1` to match `@Database(version = 1)`. If this
-    is left at 0, Room thinks a migration is needed and will crash or wipe data.
+  * We set `PRAGMA user_version` to `BibleDb.VERSION`, read straight from
+    BibleDb.kt so the two can't drift. If they differ, Room thinks a migration
+    is needed. To ship updated text, bump VERSION there and rerun this script.
   * We do NOT create Room's `room_master_table`. When it's absent, Room creates
     it and stamps its own identity hash on first open — no schema validation
-    error. (If you ever bump the Room @Database version, bump user_version too.)
+    error.
   * Column names/types below must stay in sync with the @Entity in the app.
 """
 
@@ -30,10 +31,24 @@ OUT_PATH = (
     else REPO_ROOT / "tool" / "src" / "main" / "assets" / "bible.db"
 )
 
+BIBLE_DB_KT = (
+    REPO_ROOT / "tool" / "src" / "main" / "kotlin"
+    / "com" / "trentcowden" / "bible" / "data" / "BibleDb.kt"
+)
+
 VERSE_ID_RE = re.compile(r"^([A-Z0-9]+)\.(\d+)\.(\d+)$")
 
 
+def read_db_version() -> int:
+    """The Room database version, from `const val VERSION = N` in BibleDb.kt."""
+    match = re.search(r"const val VERSION = (\d+)", BIBLE_DB_KT.read_text(encoding="utf-8"))
+    if not match:
+        sys.exit(f"Couldn't find `const val VERSION = N` in {BIBLE_DB_KT}")
+    return int(match.group(1))
+
+
 def main() -> None:
+    db_version = read_db_version()
     chapters = json.loads(IN_PATH.read_text(encoding="utf-8"))
     print(f"Loaded {len(chapters)} chapters from {IN_PATH}")
 
@@ -93,15 +108,15 @@ def main() -> None:
             "VALUES (?, ?, ?, ?, ?, ?, ?)",
             rows,
         )
-        # Must match @Database(version = 1); see module docstring.
-        db.execute("PRAGMA user_version = 1")
+        # Must match BibleDb.VERSION; see module docstring.
+        db.execute(f"PRAGMA user_version = {db_version}")
         db.commit()
     finally:
         db.close()
 
     size_mb = OUT_PATH.stat().st_size / 1_000_000
     print(f"Wrote {len(rows)} verses across {len(book_numbers)} books")
-    print(f"-> {OUT_PATH} ({size_mb:.1f} MB)")
+    print(f"-> {OUT_PATH} ({size_mb:.1f} MB, user_version {db_version})")
 
 
 if __name__ == "__main__":

@@ -7,18 +7,17 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import com.thelightphone.sdk.InitialScreen
@@ -36,7 +35,10 @@ import com.thelightphone.sdk.ui.designVerticalPxToSp
 import com.thelightphone.sdk.ui.gridUnitsAsDp
 import com.trentcowden.bible.data.BibleDbHolder
 import com.trentcowden.bible.data.ReadingPositionStore
-import com.trentcowden.bible.data.Verse
+import kotlinx.coroutines.FlowPreview
+import kotlinx.coroutines.flow.debounce
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.withTimeoutOrNull
 
 @InitialScreen
 class BibleScreen(sealedActivity: SealedLightActivity) :
@@ -55,10 +57,8 @@ class BibleScreen(sealedActivity: SealedLightActivity) :
         val state by viewModel.state.collectAsState()
         val themeColors by LightThemeController.colors.collectAsState()
 
-        // Jump back to the top whenever the chapter changes. Keyed on the reference so
-        // it fires on next/previous/goTo, but not on unrelated recompositions.
         val scrollState = rememberScrollState()
-        LaunchedEffect(state.reference) { scrollState.scrollTo(0) }
+        RestoreAndTrackScroll(state.ref, scrollState, viewModel)
 
         LightTheme(colors = themeColors) {
             val colors = LightThemeTokens.colors
@@ -134,36 +134,38 @@ class BibleScreen(sealedActivity: SealedLightActivity) :
     }
 }
 
-private fun chapterToParagraphs(
-    verses: List<Verse>,
-    verseNumberStyle: SpanStyle,
-): List<AnnotatedString> {
-    // Each verse's text already carries a trailing space, and "\n\n" marks a paragraph
-    // break (which can fall mid-verse). Build the chapter as one styled string, then
-    // split it at the breaks so each paragraph keeps its verse-number spans.
-    val chapter = buildAnnotatedString {
-        verses.forEach { verse ->
-            withStyle(verseNumberStyle) { append(verse.verse.toString()) }
-            append(" ")
-            append(verse.text)
+/**
+ * Whenever a chapter is shown, scroll to where the reader left off in it (the top, for
+ * a newly opened chapter), then keep reporting the position so it can be saved.
+ * Keyed on [ref], so moving to another chapter cancels the old tracking and restarts.
+ */
+@OptIn(FlowPreview::class)
+@Composable
+private fun RestoreAndTrackScroll(
+    ref: BibleRef?,
+    scrollState: ScrollState,
+    viewModel: BibleViewModel,
+) {
+    LaunchedEffect(ref) {
+        if (ref == null) return@LaunchedEffect
+        val target = viewModel.scrollPx
+        if (target > 0) {
+            // scrollTo clamps to the current content height, so wait for the chapter
+            // to be laid out first. Give up after a moment if it never gets that tall
+            // (e.g. the layout changed), and settle for as far as it goes.
+            withTimeoutOrNull(RESTORE_TIMEOUT_MS) {
+                snapshotFlow { scrollState.maxValue }.first { it >= target }
+            }
         }
+        scrollState.scrollTo(target)
+        snapshotFlow { scrollState.value }
+            .debounce(SCROLL_SAVE_DEBOUNCE_MS)
+            .collect { viewModel.onScrolled(ref, it) }
     }
-
-    val paragraphs = mutableListOf<AnnotatedString>()
-    var start = 0
-    while (start < chapter.length) {
-        val end = chapter.text.indexOf("\n\n", start).let { if (it == -1) chapter.length else it }
-        paragraphs += chapter.subSequence(start, end).trimmed()
-        start = end + 2
-    }
-    return paragraphs.filter { it.isNotEmpty() }
 }
 
-private fun AnnotatedString.trimmed(): AnnotatedString {
-    val first = text.indexOfFirst { !it.isWhitespace() }
-    if (first == -1) return AnnotatedString("")
-    return subSequence(first, text.indexOfLast { !it.isWhitespace() } + 1)
-}
+private const val RESTORE_TIMEOUT_MS = 1_000L
+private const val SCROLL_SAVE_DEBOUNCE_MS = 400L
 
 // The SDK's typography is in design pixels; LightText scales it to the screen with an
 // internal helper. These do the same using the public px→sp conversion.
